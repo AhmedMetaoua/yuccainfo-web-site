@@ -1,37 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# YuccaInfo Website
 
-## Getting Started
+A modern, responsive website built with Next.js and React, featuring a beautiful UI and smooth animations.
 
-First, run the development server:
+## 🚀 Features
 
+- Modern and responsive design
+- Smooth animations using Framer Motion
+- Interactive UI components using Radix UI
+- TypeScript support for better type safety
+- Tailwind CSS for styling
+- Multiple sections including:
+  - Hero section
+  - About section
+  - Services section
+  - BimPos section
+  - Clients section
+  - Contact section
+  - Appointment booking
+  - Quote request system
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js 15.3.1
+- **Language:** TypeScript
+- **UI Library:** React 19
+- **Styling:** Tailwind CSS
+- **UI Components:** 
+  - Radix UI (Select, Tabs)
+  - Framer Motion
+  - Lucide React (Icons)
+- **Development Tools:**
+  - ESLint
+  - TypeScript
+  - PostCSS
+
+## 📦 Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone [repository-url]
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+## 🏗️ Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+├── app/                    # Next.js app directory
+│   ├── devis/             # Quote request page
+│   ├── rendez-vous/       # Appointment booking page
+│   ├── page.tsx           # Home page
+│   └── layout.tsx         # Root layout
+├── components/            # React components
+│   ├── Navbar.tsx        # Navigation bar
+│   ├── Hero.jsx          # Hero section
+│   ├── AboutSection.jsx  # About section
+│   ├── ServicesSection.jsx # Services section
+│   ├── BimPosSection.jsx # BimPos section
+│   ├── ClientsSection.jsx # Clients section
+│   ├── ContactSection.jsx # Contact section
+│   └── Footer.jsx        # Footer component
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Available Scripts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
 
-## Deploy on Vercel
+## 📝 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is private and proprietary.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# yuccainfo-web-site
+## 👥 Contributing
+
+This is a private project. Please contact the project maintainers for any questions or suggestions.
